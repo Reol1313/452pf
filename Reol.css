@@ -696,3 +696,22 @@ h1 {
     padding: 10px 0;
     margin: 0 0 0 60px; /* Adjust the left margin according to the size of the image */
 }
+
+.nav-links button.nav-button {
+    background-color: #ffffff; /* Set the button background color to white */
+    color: #000000; 
+    border: none; 
+    padding: 10px 20px; /* Set the inner margin as needed */
+    margin: 0 15px; 
+    cursor: pointer; /* Show hand shaped icons when hovering over the mouse */
+    font-weight: bold; 
+    transition: background-color 0.3s; /* Smooth transition background color change */
+}
+
+.nav-links button.nav-button:hover {
+    background-color: #ff0000; /* When hovering over the mouse, the background color changes to red */
+}
+
+.nav-links button.nav-button:focus {
+    outline: none; /* Do not display outline when clicked */
+}
