@@ -191,7 +191,7 @@ footer {
 }
 
 .add-to-cart:hover {
-    background-color: #27ae60;
+    background-color: red;
 }
 .header-content {
     display: flex;
